@@ -1,0 +1,473 @@
+{
+  "originalBrightness": true,
+  "nightMaskImported": false,
+  "originalAnimatedFrames": 46,
+  "environmentAnimatedFrames": 62,
+  "totalAnimatedFrames": 108,
+  "files": [
+    {
+      "source": "characters/hero/hero_channel_00.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_00.png"
+    },
+    {
+      "source": "characters/hero/hero_channel_01.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_01.png"
+    },
+    {
+      "source": "characters/hero/hero_channel_02.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_02.png"
+    },
+    {
+      "source": "characters/hero/hero_channel_03.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_03.png"
+    },
+    {
+      "source": "characters/hero/hero_channel_04.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_04.png"
+    },
+    {
+      "source": "characters/hero/hero_channel_05.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Hero/hero_channel_05.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_00.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_00.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_01.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_01.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_02.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_02.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_03.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_03.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_04.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_04.png"
+    },
+    {
+      "source": "characters/boss/boss_channel_05.png",
+      "asset": "Assets/Art/GateOfDead/Characters/Boss/boss_channel_05.png"
+    },
+    {
+      "source": "effects/beam-hero/00.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamHero/00.png"
+    },
+    {
+      "source": "effects/beam-hero/01.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamHero/01.png"
+    },
+    {
+      "source": "effects/beam-hero/02.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamHero/02.png"
+    },
+    {
+      "source": "effects/beam-hero/03.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamHero/03.png"
+    },
+    {
+      "source": "effects/beam-boss/00.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamBoss/00.png"
+    },
+    {
+      "source": "effects/beam-boss/01.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamBoss/01.png"
+    },
+    {
+      "source": "effects/beam-boss/02.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamBoss/02.png"
+    },
+    {
+      "source": "effects/beam-boss/03.png",
+      "asset": "Assets/Art/GateOfDead/Effects/BeamBoss/03.png"
+    },
+    {
+      "source": "effects/clash/00.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/00.png"
+    },
+    {
+      "source": "effects/clash/01.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/01.png"
+    },
+    {
+      "source": "effects/clash/02.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/02.png"
+    },
+    {
+      "source": "effects/clash/03.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/03.png"
+    },
+    {
+      "source": "effects/clash/04.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/04.png"
+    },
+    {
+      "source": "effects/clash/05.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Clash/05.png"
+    },
+    {
+      "source": "effects/hit/00.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/00.png"
+    },
+    {
+      "source": "effects/hit/01.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/01.png"
+    },
+    {
+      "source": "effects/hit/02.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/02.png"
+    },
+    {
+      "source": "effects/hit/03.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/03.png"
+    },
+    {
+      "source": "effects/hit/04.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/04.png"
+    },
+    {
+      "source": "effects/hit/05.png",
+      "asset": "Assets/Art/GateOfDead/Effects/Hit/05.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_00.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_00.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_01.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_01.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_02.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_02.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_03.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_03.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_04.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_04.png"
+    },
+    {
+      "source": "portal/loop/portal_loop_05.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Loop/portal_loop_05.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_00.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_00.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_01.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_01.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_02.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_02.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_03.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_03.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_04.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_04.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_05.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_05.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_06.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_06.png"
+    },
+    {
+      "source": "portal/seal/portal_seal_07.png",
+      "asset": "Assets/Art/GateOfDead/Portal/Seal/portal_seal_07.png"
+    },
+    {
+      "source": "portal/portal_sealed.png",
+      "asset": "Assets/Art/GateOfDead/Portal/portal_sealed.png"
+    },
+    {
+      "source": "environment/background/gate-environment-clean.png",
+      "asset": "Assets/Art/GateOfDead/Background/gate-environment-clean.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_00.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_00.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_01.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_01.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_02.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_02.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_03.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_03.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_04.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_04.png"
+    },
+    {
+      "source": "environment/torches/violet_flame_05.png",
+      "asset": "Assets/Art/GateOfDead/Torches/violet_flame_05.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_00.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_00.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_01.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_01.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_02.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_02.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_03.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_03.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_04.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_04.png"
+    },
+    {
+      "source": "environment/torches/orange_flame_05.png",
+      "asset": "Assets/Art/GateOfDead/Torches/orange_flame_05.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_00.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_00.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_01.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_01.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_02.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_02.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_03.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_03.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_04.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_04.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_05.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_05.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_06.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_06.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_07.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_07.png"
+    },
+    {
+      "source": "environment/runes/upper_rune_08.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_rune_08.png"
+    },
+    {
+      "source": "environment/runes/upper_lit.png",
+      "asset": "Assets/Art/GateOfDead/Runes/upper_lit.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_00.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_00.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_01.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_01.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_02.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_02.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_03.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_03.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_04.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_04.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_05.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_05.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_06.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_06.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_07.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_07.png"
+    },
+    {
+      "source": "environment/runes/lower_rune_08.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_rune_08.png"
+    },
+    {
+      "source": "environment/runes/lower_lit.png",
+      "asset": "Assets/Art/GateOfDead/Runes/lower_lit.png"
+    },
+    {
+      "source": "environment/rocks/rock_00.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_00.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_00.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_00.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_01.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_01.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_02.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_02.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_03.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_03.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_04.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_04.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_05.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_05.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_06.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_06.png"
+    },
+    {
+      "source": "environment/rocks/rock_0_bob_07.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_0_bob_07.png"
+    },
+    {
+      "source": "environment/rocks/rock_01.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_01.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_00.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_00.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_01.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_01.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_02.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_02.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_03.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_03.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_04.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_04.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_05.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_05.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_06.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_06.png"
+    },
+    {
+      "source": "environment/rocks/rock_1_bob_07.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_1_bob_07.png"
+    },
+    {
+      "source": "environment/rocks/rock_02.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_02.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_00.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_00.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_01.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_01.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_02.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_02.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_03.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_03.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_04.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_04.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_05.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_05.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_06.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_06.png"
+    },
+    {
+      "source": "environment/rocks/rock_2_bob_07.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_2_bob_07.png"
+    },
+    {
+      "source": "environment/rocks/rock_03.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_03.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_00.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_00.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_01.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_01.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_02.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_02.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_03.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_03.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_04.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_04.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_05.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_05.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_06.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_06.png"
+    },
+    {
+      "source": "environment/rocks/rock_3_bob_07.png",
+      "asset": "Assets/Art/GateOfDead/Rocks/rock_3_bob_07.png"
+    }
+  ]
+}

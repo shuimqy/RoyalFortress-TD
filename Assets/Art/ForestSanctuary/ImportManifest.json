@@ -1,0 +1,947 @@
+{
+  "source": "D:\\游戏\\output\\animation-pilot\\forest-sanctuary-v1",
+  "animatedFrames": 32,
+  "textures": 33,
+  "files": [
+    {
+      "source": "background/sanctuary-clean.png",
+      "asset": "Assets/Art/ForestSanctuary/Background/sanctuary-clean.png"
+    },
+    {
+      "source": "frames/sage-channel/sage-channel_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-channel/sage-channel_00.png"
+    },
+    {
+      "source": "frames/sage-channel/sage-channel_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-channel/sage-channel_01.png"
+    },
+    {
+      "source": "frames/sage-channel/sage-channel_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-channel/sage-channel_02.png"
+    },
+    {
+      "source": "frames/sage-channel/sage-channel_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-channel/sage-channel_03.png"
+    },
+    {
+      "source": "frames/sage-finish/sage-finish_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-finish/sage-finish_00.png"
+    },
+    {
+      "source": "frames/sage-finish/sage-finish_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-finish/sage-finish_01.png"
+    },
+    {
+      "source": "frames/sage-finish/sage-finish_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-finish/sage-finish_02.png"
+    },
+    {
+      "source": "frames/sage-finish/sage-finish_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/sage-finish/sage-finish_03.png"
+    },
+    {
+      "source": "frames/hero-kneel/hero-kneel_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-kneel/hero-kneel_00.png"
+    },
+    {
+      "source": "frames/hero-kneel/hero-kneel_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-kneel/hero-kneel_01.png"
+    },
+    {
+      "source": "frames/hero-kneel/hero-kneel_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-kneel/hero-kneel_02.png"
+    },
+    {
+      "source": "frames/hero-kneel/hero-kneel_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-kneel/hero-kneel_03.png"
+    },
+    {
+      "source": "frames/hero-rise/hero-rise_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-rise/hero-rise_00.png"
+    },
+    {
+      "source": "frames/hero-rise/hero-rise_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-rise/hero-rise_01.png"
+    },
+    {
+      "source": "frames/hero-rise/hero-rise_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-rise/hero-rise_02.png"
+    },
+    {
+      "source": "frames/hero-rise/hero-rise_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/hero-rise/hero-rise_03.png"
+    },
+    {
+      "source": "frames/crystal-idle/crystal-idle_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-idle/crystal-idle_00.png"
+    },
+    {
+      "source": "frames/crystal-idle/crystal-idle_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-idle/crystal-idle_01.png"
+    },
+    {
+      "source": "frames/crystal-idle/crystal-idle_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-idle/crystal-idle_02.png"
+    },
+    {
+      "source": "frames/crystal-idle/crystal-idle_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-idle/crystal-idle_03.png"
+    },
+    {
+      "source": "frames/crystal-shatter/crystal-shatter_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-shatter/crystal-shatter_00.png"
+    },
+    {
+      "source": "frames/crystal-shatter/crystal-shatter_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-shatter/crystal-shatter_01.png"
+    },
+    {
+      "source": "frames/crystal-shatter/crystal-shatter_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-shatter/crystal-shatter_02.png"
+    },
+    {
+      "source": "frames/crystal-shatter/crystal-shatter_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/crystal-shatter/crystal-shatter_03.png"
+    },
+    {
+      "source": "frames/energy-flow/energy-flow_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/energy-flow/energy-flow_00.png"
+    },
+    {
+      "source": "frames/energy-flow/energy-flow_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/energy-flow/energy-flow_01.png"
+    },
+    {
+      "source": "frames/energy-flow/energy-flow_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/energy-flow/energy-flow_02.png"
+    },
+    {
+      "source": "frames/energy-flow/energy-flow_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/energy-flow/energy-flow_03.png"
+    },
+    {
+      "source": "frames/purification-pulse/purification-pulse_00.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/purification-pulse/purification-pulse_00.png"
+    },
+    {
+      "source": "frames/purification-pulse/purification-pulse_01.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/purification-pulse/purification-pulse_01.png"
+    },
+    {
+      "source": "frames/purification-pulse/purification-pulse_02.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/purification-pulse/purification-pulse_02.png"
+    },
+    {
+      "source": "frames/purification-pulse/purification-pulse_03.png",
+      "asset": "Assets/Art/ForestSanctuary/Frames/purification-pulse/purification-pulse_03.png"
+    }
+  ],
+  "sourceManifest": {
+    "version": 1,
+    "created": "2026-10-29",
+    "tool": "built-in image_gen",
+    "preparation": "Shared scale per actor/state pair, integer registration offsets, nearest-neighbour resizing, alpha threshold 128. No synthesized artwork or per-frame bounding-box fitting.",
+    "ppu": 64,
+    "coordinates": "PNG and map: top-left origin. Unity pivot: bottom-left normalized.",
+    "background": "background/sanctuary-clean.png",
+    "backgroundOriginal": "../../scenes/forest-sanctuary-v1/forest-sanctuary-v1.png",
+    "backgroundPatch": {
+      "left": 748,
+      "top": 300,
+      "width": 90,
+      "height": 126
+    },
+    "groups": [
+      {
+        "name": "sage-channel",
+        "source": "source/sage-states.png",
+        "sourceFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/sage-channel/sage-channel_00.png",
+          "frames/sage-channel/sage-channel_01.png",
+          "frames/sage-channel/sage-channel_02.png",
+          "frames/sage-channel/sage-channel_03.png"
+        ],
+        "atlas": "atlases/sage-channel.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": true,
+        "fps": 8,
+        "anchor": [
+          64,
+          148
+        ],
+        "unityPivot": [
+          0.5,
+          0.074999999999999956
+        ],
+        "scale": 0.23,
+        "sourceAnchor": [
+          200,
+          451
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 384,
+          "height": 480
+        },
+        "bounds": [
+          {
+            "x0": 22,
+            "y0": 59,
+            "x1": 103,
+            "y1": 150,
+            "solid": 3698
+          },
+          {
+            "x0": 21,
+            "y0": 59,
+            "x1": 103,
+            "y1": 150,
+            "solid": 3760
+          },
+          {
+            "x0": 21,
+            "y0": 59,
+            "x1": 103,
+            "y1": 150,
+            "solid": 3711
+          },
+          {
+            "x0": 21,
+            "y0": 59,
+            "x1": 103,
+            "y1": 150,
+            "solid": 3733
+          }
+        ]
+      },
+      {
+        "name": "sage-finish",
+        "source": "source/sage-states.png",
+        "sourceFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/sage-finish/sage-finish_00.png",
+          "frames/sage-finish/sage-finish_01.png",
+          "frames/sage-finish/sage-finish_02.png",
+          "frames/sage-finish/sage-finish_03.png"
+        ],
+        "atlas": "atlases/sage-finish.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": false,
+        "fps": 8,
+        "anchor": [
+          64,
+          148
+        ],
+        "unityPivot": [
+          0.5,
+          0.074999999999999956
+        ],
+        "scale": 0.23,
+        "sourceAnchor": [
+          200,
+          451
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -5,
+            0
+          ],
+          [
+            -8,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 384,
+          "height": 480
+        },
+        "bounds": [
+          {
+            "x0": 21,
+            "y0": 59,
+            "x1": 103,
+            "y1": 150,
+            "solid": 3725
+          },
+          {
+            "x0": 27,
+            "y0": 59,
+            "x1": 104,
+            "y1": 150,
+            "solid": 3616
+          },
+          {
+            "x0": 27,
+            "y0": 58,
+            "x1": 95,
+            "y1": 150,
+            "solid": 3400
+          },
+          {
+            "x0": 33,
+            "y0": 57,
+            "x1": 82,
+            "y1": 150,
+            "solid": 3112
+          }
+        ]
+      },
+      {
+        "name": "hero-kneel",
+        "source": "source/hero-states.png",
+        "sourceFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/hero-kneel/hero-kneel_00.png",
+          "frames/hero-kneel/hero-kneel_01.png",
+          "frames/hero-kneel/hero-kneel_02.png",
+          "frames/hero-kneel/hero-kneel_03.png"
+        ],
+        "atlas": "atlases/hero-kneel.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": true,
+        "fps": 8,
+        "anchor": [
+          64,
+          148
+        ],
+        "unityPivot": [
+          0.5,
+          0.074999999999999956
+        ],
+        "scale": 0.23,
+        "sourceAnchor": [
+          200,
+          441
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 384,
+          "height": 480
+        },
+        "bounds": [
+          {
+            "x0": 30,
+            "y0": 87,
+            "x1": 103,
+            "y1": 150,
+            "solid": 2748
+          },
+          {
+            "x0": 30,
+            "y0": 87,
+            "x1": 104,
+            "y1": 150,
+            "solid": 2853
+          },
+          {
+            "x0": 30,
+            "y0": 87,
+            "x1": 105,
+            "y1": 150,
+            "solid": 2753
+          },
+          {
+            "x0": 30,
+            "y0": 87,
+            "x1": 103,
+            "y1": 150,
+            "solid": 2722
+          }
+        ]
+      },
+      {
+        "name": "hero-rise",
+        "source": "source/hero-states.png",
+        "sourceFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/hero-rise/hero-rise_00.png",
+          "frames/hero-rise/hero-rise_01.png",
+          "frames/hero-rise/hero-rise_02.png",
+          "frames/hero-rise/hero-rise_03.png"
+        ],
+        "atlas": "atlases/hero-rise.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": false,
+        "fps": 8,
+        "anchor": [
+          64,
+          148
+        ],
+        "unityPivot": [
+          0.5,
+          0.074999999999999956
+        ],
+        "scale": 0.23,
+        "sourceAnchor": [
+          200,
+          441
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 0,
+          "top": 0,
+          "width": 384,
+          "height": 480
+        },
+        "bounds": [
+          {
+            "x0": 30,
+            "y0": 87,
+            "x1": 105,
+            "y1": 150,
+            "solid": 2799
+          },
+          {
+            "x0": 30,
+            "y0": 69,
+            "x1": 104,
+            "y1": 147,
+            "solid": 3265
+          },
+          {
+            "x0": 30,
+            "y0": 52,
+            "x1": 103,
+            "y1": 147,
+            "solid": 3982
+          },
+          {
+            "x0": 30,
+            "y0": 52,
+            "x1": 101,
+            "y1": 147,
+            "solid": 3935
+          }
+        ]
+      },
+      {
+        "name": "crystal-idle",
+        "source": "source/crystal-states.png",
+        "sourceFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/crystal-idle/crystal-idle_00.png",
+          "frames/crystal-idle/crystal-idle_01.png",
+          "frames/crystal-idle/crystal-idle_02.png",
+          "frames/crystal-idle/crystal-idle_03.png"
+        ],
+        "atlas": "atlases/crystal-idle.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": true,
+        "fps": 8,
+        "anchor": [
+          64,
+          80
+        ],
+        "unityPivot": [
+          0.5,
+          0.5
+        ],
+        "scale": 0.26,
+        "sourceAnchor": [
+          204,
+          270
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            31,
+            0
+          ]
+        ],
+        "sourceCrop": null,
+        "bounds": [
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 82,
+            "y1": 130,
+            "solid": 2971
+          },
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 82,
+            "y1": 130,
+            "solid": 2975
+          },
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 83,
+            "y1": 130,
+            "solid": 3026
+          },
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 83,
+            "y1": 130,
+            "solid": 3040
+          }
+        ]
+      },
+      {
+        "name": "crystal-shatter",
+        "source": "source/crystal-states.png",
+        "sourceFrames": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "size": [
+          128,
+          160
+        ],
+        "frames": [
+          "frames/crystal-shatter/crystal-shatter_00.png",
+          "frames/crystal-shatter/crystal-shatter_01.png",
+          "frames/crystal-shatter/crystal-shatter_02.png",
+          "frames/crystal-shatter/crystal-shatter_03.png"
+        ],
+        "atlas": "atlases/crystal-shatter.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": false,
+        "fps": 8,
+        "anchor": [
+          64,
+          80
+        ],
+        "unityPivot": [
+          0.5,
+          0.5
+        ],
+        "scale": 0.26,
+        "sourceAnchor": [
+          204,
+          270
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            31,
+            9
+          ]
+        ],
+        "sourceCrop": null,
+        "bounds": [
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 82,
+            "y1": 130,
+            "solid": 2971
+          },
+          {
+            "x0": 45,
+            "y0": 30,
+            "x1": 83,
+            "y1": 131,
+            "solid": 3040
+          },
+          {
+            "x0": 33,
+            "y0": 26,
+            "x1": 91,
+            "y1": 129,
+            "solid": 3031
+          },
+          {
+            "x0": 32,
+            "y0": 34,
+            "x1": 96,
+            "y1": 125,
+            "solid": 420
+          }
+        ]
+      },
+      {
+        "name": "energy-flow",
+        "source": "source/ritual-effects.png",
+        "sourceFrames": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": [
+          176,
+          72
+        ],
+        "frames": [
+          "frames/energy-flow/energy-flow_00.png",
+          "frames/energy-flow/energy-flow_01.png",
+          "frames/energy-flow/energy-flow_02.png",
+          "frames/energy-flow/energy-flow_03.png"
+        ],
+        "atlas": "atlases/energy-flow.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": true,
+        "fps": 8,
+        "anchor": [
+          88,
+          36
+        ],
+        "unityPivot": [
+          0.5,
+          0.5
+        ],
+        "scale": 0.5,
+        "sourceAnchor": [
+          192,
+          304
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 16,
+          "top": 232,
+          "width": 352,
+          "height": 144
+        },
+        "bounds": [
+          {
+            "x0": 24,
+            "y0": 19,
+            "x1": 166,
+            "y1": 48,
+            "solid": 1182
+          },
+          {
+            "x0": 2,
+            "y0": 14,
+            "x1": 170,
+            "y1": 55,
+            "solid": 1870
+          },
+          {
+            "x0": 2,
+            "y0": 6,
+            "x1": 172,
+            "y1": 64,
+            "solid": 2299
+          },
+          {
+            "x0": 8,
+            "y0": 4,
+            "x1": 165,
+            "y1": 54,
+            "solid": 2208
+          }
+        ]
+      },
+      {
+        "name": "purification-pulse",
+        "source": "source/ritual-effects.png",
+        "sourceFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "size": [
+          192,
+          160
+        ],
+        "frames": [
+          "frames/purification-pulse/purification-pulse_00.png",
+          "frames/purification-pulse/purification-pulse_01.png",
+          "frames/purification-pulse/purification-pulse_02.png",
+          "frames/purification-pulse/purification-pulse_03.png"
+        ],
+        "atlas": "atlases/purification-pulse.png",
+        "grid": [
+          4,
+          1
+        ],
+        "loop": false,
+        "fps": 8,
+        "anchor": [
+          96,
+          80
+        ],
+        "unityPivot": [
+          0.5,
+          0.5
+        ],
+        "scale": 0.5,
+        "sourceAnchor": [
+          192,
+          256
+        ],
+        "sourceOffsets": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sourceCrop": {
+          "left": 0,
+          "top": 96,
+          "width": 384,
+          "height": 320
+        },
+        "bounds": [
+          {
+            "x0": 48,
+            "y0": 45,
+            "x1": 155,
+            "y1": 118,
+            "solid": 1999
+          },
+          {
+            "x0": 20,
+            "y0": 25,
+            "x1": 166,
+            "y1": 133,
+            "solid": 3462
+          },
+          {
+            "x0": 7,
+            "y0": 18,
+            "x1": 181,
+            "y1": 136,
+            "solid": 4770
+          },
+          {
+            "x0": 5,
+            "y0": 4,
+            "x1": 183,
+            "y1": 144,
+            "solid": 3289
+          }
+        ]
+      }
+    ],
+    "placement": {
+      "sageGround": [
+        704,
+        447
+      ],
+      "heroGround": [
+        883,
+        461
+      ],
+      "crystalCenter": [
+        796,
+        364
+      ],
+      "pulseCenter": [
+        796,
+        447
+      ],
+      "sageHandOffset": [
+        36,
+        -68
+      ],
+      "heroChestKneelOffset": [
+        -9,
+        -31
+      ],
+      "heroChestStandOffset": [
+        -9,
+        -59
+      ],
+      "sageSocketNote": "Measured final channel frames; hand near frame (100,80). Preview follows the same fixed local socket."
+    },
+    "rules": {
+      "totalWaves": 8,
+      "chargeAfter": [
+        2,
+        4,
+        6
+      ],
+      "maxStoredPulse": 1,
+      "chargeRequiresClearedWave": true,
+      "pulseConsumesRitualProgress": false,
+      "victoryRequiresHomeAlive": true
+    },
+    "limitations": [
+      "Four-frame generated character motions are subtle; rise and arm-lowering use authored key poses, not skeletal interpolation.",
+      "Small remaining weapon/robe variations come from the generated sheets.",
+      "HTML demonstrates cleared-wave events; enemy combat, damage and Unity integration are not part of this asset preview."
+    ]
+  }
+}

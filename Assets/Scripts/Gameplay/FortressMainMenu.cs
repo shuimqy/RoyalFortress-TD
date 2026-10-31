@@ -54,7 +54,7 @@ public sealed class FortressMainMenu : MonoBehaviour
         if (maps == null || maps.Length == 0) { Debug.LogError("Main menu needs map options.", this); return; }
         EnsureEventSystem();
         CreateUI();
-        int preferred = string.IsNullOrEmpty(returningFrom) ? maps.Length - 1 : Array.FindIndex(maps, option => option.sceneName == returningFrom);
+        int preferred = string.IsNullOrEmpty(returningFrom) ? 0 : Array.FindIndex(maps, option => option.sceneName == returningFrom);
         SelectMap(Mathf.Max(0, preferred));
         if (string.IsNullOrEmpty(returningFrom)) ShowTitle(); else ShowMapSelection();
         returningFrom = null;
@@ -127,9 +127,9 @@ public sealed class FortressMainMenu : MonoBehaviour
         TextAt(parent, "拖卡建塔  /  自由缩放  /  多地图防守", 14, muted, 84, 757, 690, 28);
         var feature = Box(parent, "Featured Map", 1000, 566, 500, 248, new Color32(9, 21, 26, 224));
         Box(feature.transform, "Featured Line", 0, 0, 500, 3, maps[maps.Length - 1].accent);
-        TextAt(feature.transform, "新战场 · EMERALD SWITCHBACK", 14, gold, 28, 25, 448, 26);
-        TextAt(feature.transform, "翡翠回廊", 36, cream, 26, 65, 448, 54, true);
-        TextAt(feature.transform, "四段折返长路，十二处火力支点。\n在连续弯道中构筑你的交叉火力。", 18, muted, 28, 130, 444, 78);
+        TextAt(feature.transform, "远征路线 · CAMPAIGN", 14, gold, 28, 25, 448, 26);
+        TextAt(feature.transform, "守卫与远征", 36, cream, 26, 65, 448, 54, true);
+        TextAt(feature.transform, "要塞 → 圣林 → 亡者之门\n守住边境，获得加护，封印裂隙。", 18, muted, 28, 130, 444, 78);
     }
     private void CreateSelection()
     {

@@ -15,6 +15,10 @@ public sealed class FortressHud : MonoBehaviour
     public Button waveButton;
     public Text GoldText { get; private set; }
     public TowerBuildCard[] Cards { get; private set; }
+    public bool IsReady => ready;
+    public Transform ExtraControlsRoot => gameplayGroup ? gameplayGroup.transform : transform;
+    private string encounterStatus, encounterAction;
+    private bool encounterAllowsRestart;
     private TowerBuildController build;
     private Font runtimeFont;
     private Text hint, waveHint, zoomText;
@@ -302,11 +306,17 @@ public sealed class FortressHud : MonoBehaviour
     { rect.anchorMin = min; rect.anchorMax = max; rect.pivot = pivot; rect.anchoredPosition = position; rect.sizeDelta = size; }
     private void OnWaveButton()
     {
+        if (game.AllWavesFinished && encounterStatus != null && !encounterAllowsRestart) return;
         build.Cancel();
         if (game.IsGameOver || game.AllWavesFinished) game.RestartLevel();
         else game.StartNextWave();
     }
     private void ShowMessage(string message) { if (hint) hint.text = message; }
+    public void SetEncounterMessage(string status, string action, bool allowsRestart)
+    {
+        if (encounterStatus == status && encounterAction == action && encounterAllowsRestart == allowsRestart) return;
+        encounterStatus = status; encounterAction = action; encounterAllowsRestart = allowsRestart; Refresh();
+    }
     public void Refresh()
     {
         if (!ready || !game) return;
@@ -314,16 +324,21 @@ public sealed class FortressHud : MonoBehaviour
         lifeText.text = game.Lives + " / " + game.startingLives;
         lifeText.color = game.Lives <= 5 ? new Color32(255, 125, 113, 255) : cream;
         waveText.text = game.CurrentWave + " / " + game.TotalWaves;
-        branchText.text = "击败 " + game.DefeatedEnemies + (game.UsesBranch ? " · " + (game.BranchOpen ? "墓穴开放" : "墓穴 " + game.branchUnlockWave + " 波") : " · 回廊防线");
-        if (game.IsGameOver) statusText.text = "王宫失守";
+        branchText.text = "击败 " + game.DefeatedEnemies + (game.UsesBranch ? " · " + (game.BranchOpen ? game.branchDisplayName+"开放" : game.branchDisplayName+" " + game.branchUnlockWave + " 波") : " · 防守中");
+        if (game.IsGameOver) statusText.text = game.homeDisplayName + "失守";
         else if (game.AllWavesFinished) statusText.text = "防守成功";
         else if (game.IsWaveActive) statusText.text = (game.IsSpawning ? "敌人来袭" : "清理敌人") + " · " + game.AliveCount;
-        else statusText.text = game.CurrentWave == 0 ? "准备防守" : "本波结束";
+        else statusText.text = game.CurrentWave == 0 ? game.preparationHint : "本波结束";
         bool ended = game.IsGameOver || game.AllWavesFinished;
         buttonText.text = ended ? "重新开始" : game.IsWaveActive ? "战斗进行中" : "开始第 " + (game.CurrentWave + 1) + " 波  ›";
         waveButton.interactable = ended || game.CanStartWave;
         waveHint.text = ended ? "重整防线，再战一局" : game.IsWaveActive ? "击败敌人赚取金币" : "准备就绪后出击";
         foreach (var card in Cards) card.Refresh();
-        if (ended) { build.Cancel(); ShowMessage(game.IsGameOver ? "防线被突破了，重新部署再试一次" : "所有波次已完成，王宫安全"); }
+        if (ended) { build.Cancel(); ShowMessage(game.IsGameOver ? "防线被突破了，重新部署再试一次" : "所有波次已完成，" + game.homeDisplayName + "安全"); }
+        if (encounterStatus != null)
+        {
+            statusText.text = encounterStatus; buttonText.text = encounterAction;
+            waveButton.interactable = encounterAllowsRestart && !game.IsPaused;
+        }
     }
 }

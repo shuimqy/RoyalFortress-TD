@@ -149,26 +149,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FortressMainMenu
   maps:
-  - title: "\u738B\u56FD\u8FB9\u5883"
-    subtitle: "\u57CE\u5821\u5173\u9698 \xB7 \u53CC\u7EBF\u6765\u88AD"
+  - title: "\u8FB9\u5883\u8981\u585E"
+    subtitle: "\u7B2C\u4E00\u7AE0 \xB7 \u8FB9\u5883\u70FD\u706B"
     description: "\u4FDD\u536B\u738B\u5BAB\u524D\u7684\u6700\u540E\u4E00\u9053\u5173\u9698\u3002\u4E24\u8DEF\u654C\u4EBA\u9010\u6B65\u6C47\u5408\uFF0C\u7B2C\u4E09\u6CE2\u5F00\u542F\u5893\u7A74\u652F\u8DEF\u3002"
     sceneName: RoyalFortressGameplay
     preview: {fileID: 21300000, guid: 689d7422fcb595245970a6ac3e666eab, type: 3}
     startingGold: 300
     towerSites: 7
     waves: 3
-    routeLabel: "\u8FB9\u5883\u8BD5\u70BC"
+    routeLabel: "\u5B88\u4F4F\u8981\u585E"
     accent: {r: 0.7882353, g: 0.6627451, b: 0.4392157, a: 1}
-  - title: "\u7FE1\u7FE0\u56DE\u5ECA"
-    subtitle: "\u68EE\u6797\u5CE1\u8C37 \xB7 \u56DB\u6BB5\u6298\u8FD4"
-    description: "\u873F\u8712\u957F\u8DEF\u7A7F\u8FC7\u68EE\u6797\u4E0E\u7011\u5E03\u3002\u6700\u7EC8\u6CE2\u707E\u5384\u5DEB\u5E08\u6765\u88AD\uFF0C\u66B4\u96EA\u538B\u5236\u5854\u7684\u653B\u901F\uFF0C\u6C99\u5C18\u66B4\u52A0\u901F\u5168\u4F53\u602A\u7269\u3002"
-    sceneName: EmeraldSwitchback
-    preview: {fileID: 21300000, guid: 053a142ca609ca84a8fc3642d700c444, type: 3}
-    startingGold: 380
-    towerSites: 12
-    waves: 5
-    routeLabel: "\u66F2\u5F84\u8FDC\u5F81"
-    accent: {r: 0.4745098, g: 0.80784315, b: 0.61960787, a: 1}
+  - title: "\u5723\u6797\u52A0\u62A4"
+    subtitle: "\u7B2C\u4E8C\u7AE0 \xB7 \u53E4\u6811\u4EEA\u5F0F"
+    description: "\u5728\u53E4\u6811\u5723\u575B\u5468\u56F4\u90E8\u7F72\u9632\u7EBF\uFF0C\u5B88\u62A4\u8D24\u8005\u7684\u52A0\u62A4\u4EEA\u5F0F\u3002\u79EF\u84C4\u51C0\u5316\u8109\u51B2\uFF0C\u62B5\u6321\u4E09\u8DEF\u6765\u654C\u3002"
+    sceneName: ForestSanctuaryGameplay
+    preview: {fileID: 21300000, guid: 1eaefddcd4fbcca428a97351eca4b96f, type: 3}
+    startingGold: 300
+    towerSites: 8
+    waves: 8
+    routeLabel: "\u5B88\u62A4\u5723\u575B"
+    accent: {r: 0.46, g: 0.83, b: 0.64, a: 1}
+  - title: "\u4EA1\u8005\u4E4B\u95E8"
+    subtitle: "\u7B2C\u4E09\u7AE0 \xB7 \u67AF\u9AA8\u5893\u57DF"
+    description: "\u7A7F\u8D8A\u67AF\u9AA8\u5893\u5730\uFF0C\u5B88\u4F4F\u5C01\u5370\u6CD5\u9635\u3002\u52C7\u8005\u501F\u5723\u6797\u4E4B\u529B\u4E0E\u6B7B\u7075\u9886\u4E3B\u5BF9\u6297\uFF0C\u6700\u7EC8\u5173\u95ED\u4F20\u9001\u95E8\u3002"
+    sceneName: GateOfTheDeadGameplay
+    preview: {fileID: 21300000, guid: 96e1c58174b139d45b6a8257e6ea8a51, type: 3}
+    startingGold: 300
+    towerSites: 10
+    waves: 7
+    routeLabel: "\u5C01\u5370\u88C2\u9699"
+    accent: {r: 0.71, g: 0.55, b: 0.91, a: 1}
   titleBackground: {fileID: 21300000, guid: 93c5f1249b6aec5499edea1b63a13e45, type: 3}
 --- !u!4 &405911036
 Transform:

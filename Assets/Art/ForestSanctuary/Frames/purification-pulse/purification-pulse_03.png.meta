@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 698024ee80369bf4ca9cc66848687b72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7710078592180317461
+    second: purification-pulse_03_0
+  - first:
+      213: 4704164428851227650
+    second: purification-pulse_03_1
+  - first:
+      213: -6260158910948411694
+    second: purification-pulse_03_2
+  - first:
+      213: 7035904732778914894
+    second: purification-pulse_03_3
+  - first:
+      213: 1811853018744175791
+    second: purification-pulse_03_4
+  - first:
+      213: -2222299767282189766
+    second: purification-pulse_03_5
+  - first:
+      213: -7197746724455308762
+    second: purification-pulse_03_6
+  - first:
+      213: 6375661942622887875
+    second: purification-pulse_03_7
+  - first:
+      213: 2492873270250744335
+    second: purification-pulse_03_8
+  - first:
+      213: -7838124080008536098
+    second: purification-pulse_03_9
+  - first:
+      213: 2287306648207537567
+    second: purification-pulse_03_10
+  - first:
+      213: 6735960710732478655
+    second: purification-pulse_03_11
+  - first:
+      213: -5133502701861526841
+    second: purification-pulse_03_12
+  - first:
+      213: 7222811177637940372
+    second: purification-pulse_03_13
+  - first:
+      213: 6321274187633121285
+    second: purification-pulse_03_14
+  - first:
+      213: 3616007229285002533
+    second: purification-pulse_03_15
+  - first:
+      213: -7195879266102881206
+    second: purification-pulse_03_16
+  - first:
+      213: -8238503966413932483
+    second: purification-pulse_03_17
+  - first:
+      213: -41845889564580484
+    second: purification-pulse_03_18
+  - first:
+      213: 2841572967795472748
+    second: purification-pulse_03_19
+  - first:
+      213: 4079472198330424557
+    second: purification-pulse_03_20
+  - first:
+      213: -661133243092934271
+    second: purification-pulse_03_21
+  - first:
+      213: -5939304971132099892
+    second: purification-pulse_03_22
+  - first:
+      213: -6781509344794749168
+    second: purification-pulse_03_23
+  - first:
+      213: -4322096494487646181
+    second: purification-pulse_03_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purification-pulse_03_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 149
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be29fb2ce5c400590800000000000000
+      internalID: -7710078592180317461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 136
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ca4b2df9c884140800000000000000
+      internalID: 4704164428851227650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d67c6363a27f19a0800000000000000
+      internalID: -6260158910948411694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44e6ce931e84a160800000000000000
+      internalID: 7035904732778914894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac377f88bef42910800000000000000
+      internalID: 1811853018744175791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 121
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a36bac22ec821e0800000000000000
+      internalID: -2222299767282189766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6222c994d777c1c90800000000000000
+      internalID: -7197746724455308762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 99
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf9302d1c6ea7850800000000000000
+      internalID: 6375661942622887875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aac5f0807789220800000000000000
+      internalID: 2492873270250744335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 126
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfd7a96da3693390800000000000000
+      internalID: -7838124080008536098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 112
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95bcc227452ebf10800000000000000
+      internalID: 2287306648207537567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb87238e390fa7d50800000000000000
+      internalID: 6735960710732478655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 74
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2290abd7222c8b0800000000000000
+      internalID: -5133502701861526841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c84da7f749c3460800000000000000
+      internalID: 7222811177637940372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508d7b1d16da9b750800000000000000
+      internalID: 6321274187633121285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52de6c6aa63ae2230800000000000000
+      internalID: 3616007229285002533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44d651dee9132c90800000000000000
+      internalID: -7195879266102881206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d383041ca44faad80800000000000000
+      internalID: -8238503966413932483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 41
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75613992655b6ff0800000000000000
+      internalID: -41845889564580484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 16
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c693dc41f8b4f6720800000000000000
+      internalID: 2841572967795472748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 14
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1194b9523d9830800000000000000
+      internalID: 4079472198330424557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 28
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1816e3871de23d6f0800000000000000
+      internalID: -661133243092934271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a5f6b899539da0800000000000000
+      internalID: -5939304971132099892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017548e4e2d33e1a0800000000000000
+      internalID: -6781509344794749168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purification-pulse_03_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b105a114324d404c0800000000000000
+      internalID: -4322096494487646181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      purification-pulse_03_0: -7710078592180317461
+      purification-pulse_03_1: 4704164428851227650
+      purification-pulse_03_10: 2287306648207537567
+      purification-pulse_03_11: 6735960710732478655
+      purification-pulse_03_12: -5133502701861526841
+      purification-pulse_03_13: 7222811177637940372
+      purification-pulse_03_14: 6321274187633121285
+      purification-pulse_03_15: 3616007229285002533
+      purification-pulse_03_16: -7195879266102881206
+      purification-pulse_03_17: -8238503966413932483
+      purification-pulse_03_18: -41845889564580484
+      purification-pulse_03_19: 2841572967795472748
+      purification-pulse_03_2: -6260158910948411694
+      purification-pulse_03_20: 4079472198330424557
+      purification-pulse_03_21: -661133243092934271
+      purification-pulse_03_22: -5939304971132099892
+      purification-pulse_03_23: -6781509344794749168
+      purification-pulse_03_24: -4322096494487646181
+      purification-pulse_03_3: 7035904732778914894
+      purification-pulse_03_4: 1811853018744175791
+      purification-pulse_03_5: -2222299767282189766
+      purification-pulse_03_6: -7197746724455308762
+      purification-pulse_03_7: 6375661942622887875
+      purification-pulse_03_8: 2492873270250744335
+      purification-pulse_03_9: -7838124080008536098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

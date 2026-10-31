@@ -22,3 +22,5 @@
 *.slnx
 /Assets/Screenshots/
 /Assets/Screenshots.meta
+/Assets/_Recovery/
+/Assets/_Recovery.meta

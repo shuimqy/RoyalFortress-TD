@@ -23,7 +23,7 @@ public sealed class FortressEnemyVisual : MonoBehaviour
         root.transform.SetParent(transform, false); barRoot = root.transform;
         var definition = GetComponent<WaypointEnemy>().definition;
         barWidth = definition && definition.kind == FortressEnemyKind.TempestSorcerer ? 1.3f
-            : definition && definition.kind == FortressEnemyKind.ArmoredOrc ? 0.8f : 0.55f;
+            : definition && (definition.kind == FortressEnemyKind.ArmoredOrc || definition.kind == FortressEnemyKind.RiftGuard) ? 0.8f : 0.55f;
         back = MakeBar("Background", new Color(0.08f,0.05f,0.06f,0.95f), 100);
         fill = MakeBar("Health", new Color(0.3f,0.85f,0.3f), 101);
     }

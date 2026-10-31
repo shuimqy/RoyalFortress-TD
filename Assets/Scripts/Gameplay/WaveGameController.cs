@@ -7,8 +7,23 @@ using UnityEngine.SceneManagement;
 public sealed class WaveGameController : MonoBehaviour
 {
     [Serializable]
+    public sealed class SpawnGroup
+    {
+        public string label;
+        public WaypointPath route;
+        public WaypointEnemy prefab;
+        [Min(0)] public int count = 1;
+        [Min(0.05f)] public float spawnInterval = 1;
+        [Min(0)] public float startDelay;
+        public bool requiresBranch;
+    }
+
+    [Serializable]
     public sealed class WaveDefinition
     {
+        public string displayName;
+        [Tooltip("Optional groups specify route, prefab and timing; otherwise the original per-route counts are used.")]
+        public SpawnGroup[] groups;
         [Min(0)] public int countA = 2;
         [Min(0)] public int countB = 2;
         [Min(0)] public int countC;
@@ -20,6 +35,9 @@ public sealed class WaveGameController : MonoBehaviour
     }
 
     public string levelName = "王国边境";
+    public string homeDisplayName = "王宫";
+    public string branchDisplayName = "墓穴";
+    public string preparationHint = "准备防守";
     [Min(1)] public int startingLives = 20;
     [Min(0)] public int startingGold = 300;
     [Min(1)] public int branchUnlockWave = 3;
@@ -44,6 +62,7 @@ public sealed class WaveGameController : MonoBehaviour
     public int DefeatedEnemies { get; private set; }
     public int SpawnedSkeletons { get; private set; }
     public int SpawnedOrcs { get; private set; }
+    public int SpawnedSpecials { get; private set; }
     public int SpawnedA { get; private set; }
     public int SpawnedB { get; private set; }
     public int SpawnedC { get; private set; }
@@ -59,7 +78,14 @@ public sealed class WaveGameController : MonoBehaviour
         get
         {
             if (!routeC || waves == null) return false;
-            foreach (var wave in waves) if (wave.countC + wave.orcsC + wave.bossesC > 0) return true;
+            foreach (var wave in waves)
+            {
+                if (wave.groups != null && wave.groups.Length > 0)
+                {
+                    foreach (var group in wave.groups) if (group != null && group.count > 0 && group.route == routeC) return true;
+                }
+                else if (wave.countC + wave.orcsC + wave.bossesC > 0) return true;
+            }
             return false;
         }
     }
@@ -103,9 +129,21 @@ public sealed class WaveGameController : MonoBehaviour
 
     public bool TryStartNextWave()
     {
-        if (!CanStartWave || enemyPrefab == null) return false;
+        if (!CanStartWave) return false;
         WaveDefinition plan = waves[CurrentWave];
-        if ((plan.orcsA + plan.orcsB + plan.orcsC > 0 && orcPrefab == null)
+        if (plan.groups != null && plan.groups.Length > 0)
+        {
+            int total = 0;
+            foreach (var group in plan.groups)
+            {
+                if (group == null || group.count < 0) return false;
+                total += group.count;
+                if (group.count > 0 && (!group.prefab || !ValidRoute(group.route,group.count)
+                    || ((group.requiresBranch || group.route == routeC) && CurrentWave + 1 < branchUnlockWave))) return false;
+            }
+            if (total == 0) return false;
+        }
+        else if (enemyPrefab == null || (plan.orcsA + plan.orcsB + plan.orcsC > 0 && orcPrefab == null)
             || (plan.bossesA + plan.bossesB + plan.bossesC > 0 && !bossPrefab)
             || !ValidRoute(routeA, plan.countA + plan.orcsA + plan.bossesA) || !ValidRoute(routeB, plan.countB + plan.orcsB + plan.bossesB)
             || !ValidRoute(routeC, plan.countC + plan.orcsC + plan.bossesC) || (plan.countC + plan.orcsC + plan.bossesC > 0 && CurrentWave + 1 < branchUnlockWave))
@@ -126,6 +164,9 @@ public sealed class WaveGameController : MonoBehaviour
 
     private IEnumerator SpawnWave(WaveDefinition plan)
     {
+        if (plan.groups != null && plan.groups.Length > 0) yield return SpawnConfigured(plan.groups);
+        else
+        {
         int rounds = Mathf.Max(plan.countA + plan.orcsA + plan.bossesA, Mathf.Max(plan.countB + plan.orcsB + plan.bossesB, plan.countC + plan.orcsC + plan.bossesC));
         for (int i = 0; i < rounds && !IsGameOver; i++)
         {
@@ -135,16 +176,49 @@ public sealed class WaveGameController : MonoBehaviour
             StateChanged?.Invoke();
             if (i + 1 < rounds) yield return new WaitForSeconds(Mathf.Max(0.05f, plan.spawnInterval));
         }
+        }
         IsSpawning = false;
         FinishWaveIfEmpty();
         StateChanged?.Invoke();
     }
 
-    private void Spawn(WaypointPath path, int kind)
+    private IEnumerator SpawnConfigured(SpawnGroup[] groups)
     {
-        var enemy = Instantiate(kind == 2 ? bossPrefab : kind == 1 ? orcPrefab : enemyPrefab, enemiesRoot);
+        var spawned = new int[groups.Length];
+        int remaining = 0;
+        foreach (var group in groups) remaining += group.count;
+        float started = Time.time;
+        while (remaining > 0 && !IsGameOver)
+        {
+            if (IsPaused) { yield return null; continue; }
+            float elapsed = Time.time - started; bool changed = false;
+            for (int i = 0; i < groups.Length; i++)
+            {
+                var group = groups[i];
+                float due = Mathf.Max(0,group.startDelay) + spawned[i] * Mathf.Max(.05f,group.spawnInterval);
+                if (spawned[i] >= group.count || elapsed < due) continue;
+                Spawn(group.route,group.prefab);
+                if (group.route == routeA) SpawnedA++;
+                else if (group.route == routeB) SpawnedB++;
+                else if (group.route == routeC) SpawnedC++;
+                spawned[i]++; remaining--; changed = true;
+            }
+            if (changed) StateChanged?.Invoke();
+            if (remaining > 0) yield return null;
+        }
+    }
+
+    private void Spawn(WaypointPath path, int kind) => Spawn(path,kind == 2 ? bossPrefab : kind == 1 ? orcPrefab : enemyPrefab);
+
+    private void Spawn(WaypointPath path, WaypointEnemy prefab)
+    {
+        var enemy = Instantiate(prefab, enemiesRoot);
         activeEnemies.Add(enemy);
-        if (kind == 2) SpawnedBosses++; else if (kind == 1) SpawnedOrcs++; else SpawnedSkeletons++;
+        var kind = enemy.definition ? enemy.definition.kind : FortressEnemyKind.Skeleton;
+        if (kind == FortressEnemyKind.TempestSorcerer) SpawnedBosses++;
+        else if (kind == FortressEnemyKind.RiftGuard) SpawnedSpecials++;
+        else if (kind == FortressEnemyKind.ArmoredOrc) SpawnedOrcs++;
+        else SpawnedSkeletons++;
         enemy.name = enemy.DisplayName + " - " + path.name;
         enemy.Initialize(this, path);
     }
